@@ -20,13 +20,14 @@ const ContactUS = () => {
   const emailChangeHandler = (e) => {
     let item = e.target.value;
 
-    
+
     setEmail(item);
   }
 
   const contactChangeHandler = (e) => {
     let item = e.target.value;
 
+    
     setContact(item);
   }
   return (
